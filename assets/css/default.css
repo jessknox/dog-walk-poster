@@ -1,0 +1,544 @@
+*{box-sizing: border-box;}
+@font-face {
+  font-family: Leimzy;
+  src: ./assets/Leimzy-Regular.otf;
+}
+
+p {
+  color: gray;
+  font-family: Leimzy;
+  font-size: 20px;
+  padding: 0%;
+}
+
+img {
+  height:437px;
+  width: :310px;
+}
+
+body{
+  margin:0;
+  padding: 0;
+  background-color: white;
+  color: gray;
+  font-family: Leimzy;
+  font-size: 20px;
+  padding: 0%;
+  height: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #8efb31;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e6f936;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+
+.erie-container{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height:50%;
+    width: 25%;
+    float: left;
+  }
+
+  .erie-container:hover{
+    filter: drop-shadow(0 0 30px #CEFA05);
+  }
+
+  .erie{
+  position: absolute;
+    top: 0px;
+    left: 0px;
+  z-index: 2;
+  width: 25%;
+  }
+
+  .erie:hover{
+    filter: opacity(0%);
+  }
+
+  .eriemap{
+  position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 25%;
+  }
+
+.albi-container{
+    position: relative;
+    top: 10px;
+    height:50%;
+    width: 25%;
+    float: left;
+  }
+
+  .albi-container:hover{
+    filter: drop-shadow(0 0 30px #CEFA05);
+  }
+
+  .albi{
+  position: absolute;
+    top: 0px;
+    left: 0px;
+  z-index: 2;
+  width: 25%;
+  }
+
+  .albi:hover{
+    filter: opacity(0%);
+  }
+
+  .albimap{
+  position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 25%;
+  }
+
+.floki-container{
+      position: relative;
+      top: 10px;
+      height:50%;
+      width: 25%;
+      float: left;
+    }
+    .floki-container:hover{
+      filter: drop-shadow(0 0 30px #CEFA05);
+    }
+    .floki{
+    position: absolute;
+      top: 0px;
+      left: 0px;
+    z-index: 2;
+    width: 25%;
+    }
+
+    .floki:hover{
+      filter: opacity(0%);
+    }
+
+    .flokimap{
+    position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: 1;
+      width: 25%;
+    }
+
+.lola-container{
+          position: relative;
+          top: 10px;
+          height:50%;
+          width: 25%;
+          float: left;
+        }
+        .lola-container:hover{
+          filter: drop-shadow(0 0 30px #CEFA05);
+        }
+        .lola{
+        position: absolute;
+          top: 0px;
+          left: 0px;
+        z-index: 2;
+        width: 25%;
+        }
+
+        .lola:hover{
+          filter: opacity(0%);
+        }
+
+        .lolamap{
+        position: absolute;
+          top: 0px;
+          left: 0px;
+          z-index: 1;
+          width: 25%;
+        }
+
+.rolo-container{
+            position: relative;
+            top: 20%;
+            left: 10px;
+            height:50%;
+            width: 25%;
+            float: left;
+          }
+          .rolo-container:hover{
+            filter: drop-shadow(0 0 30px #CEFA05);
+          }
+
+          .rolo{
+          position: absolute;
+            top: 0px;
+            left: 0px;
+          z-index: 2;
+          width: 25%;
+          }
+
+          .rolo:hover{
+            filter: opacity(0%);
+          }
+
+          .rolomap{
+          position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: 1;
+            width: 25%;
+          }
+
+.beans-container{
+            position: relative;
+            top: 20%;;
+            height:50%;
+            width: 25%;
+            float: left;
+          }
+          .beans-container:hover{
+            filter: drop-shadow(0 0 30px #CEFA05);
+          }
+          .beans{
+          position: absolute;
+            top: 0px;
+            left: 0px;
+          z-index: 2;
+          width: 25%;
+          }
+
+          .beans:hover{
+            filter: opacity(0%);
+          }
+
+          .beansmap{
+          position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: 1;
+            width: 25%;
+          }
+
+.pepper-container{
+              position: relative;
+              top: 20%;
+              height:50%;
+              width: 25%;
+              float: left;
+            }
+            .pepper-container:hover{
+              filter: drop-shadow(0 0 30px #CEFA05);
+            }
+            .pepper{
+            position: absolute;
+              top: 0px;
+              left: 0px;
+            z-index: 2;
+            width: 25%;
+            }
+
+            .pepper:hover{
+              filter: opacity(0%);
+            }
+
+            .peppermap{
+            position: absolute;
+              top: 0px;
+              left: 0px;
+              z-index: 1;
+              width: 25%;
+            }
+
+.soon-container{
+                  position: relative;
+                  top: 20%;
+                  height:50%;
+                  width: 25%;
+                  float: left;
+                }
+
+                .soon-container:hover{
+                  filter: drop-shadow(0 0 30px #CEFA05);
+                }
+                .soon{
+                position: absolute;
+                  top: 0px;
+                  left: 0px;
+                z-index: 2;
+                width: 25%;
+                }
+
+                .soon:hover{
+                  filter: opacity(0%);
+                }
+
+                .soonmap{
+                position: absolute;
+                  top: 0px;
+                  left: 0px;
+                  z-index: 1;
+                  width: 25%;
+                }
+
+.franklin-container{
+                    position: relative;
+                    top: 40%;
+                    left: 10px;
+                    height:50%;
+                    width: 25%;
+                    float: left;
+                  }
+                  .franklin-container:hover{
+                    filter: drop-shadow(0 0 30px #CEFA05);
+                  }
+                  .franklin{
+                  position: absolute;
+                    top: 0px;
+                    left: 0px;
+                  z-index: 2;
+                  width: 25%;
+                  }
+
+                  .franklin:hover{
+                    filter: opacity(0%);
+                  }
+
+                  .franklinmap{
+                  position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    z-index: 1;
+                    width: 25%;
+                  }
+
+.k9-container{
+                    position: relative;
+                    top: 40%;
+                    height:50%;
+                    width: 25%;
+                    float: left;
+                  }
+                  .k9-container:hover{
+                    filter: drop-shadow(0 0 30px #CEFA05);
+                  }
+                  .k9{
+                  position: absolute;
+                    top: 0px;
+                    left: 0px;
+                  z-index: 2;
+                  width: 25%;
+                  }
+
+                  .k9:hover{
+                    filter: opacity(0%);
+                  }
+
+                  .k9map{
+                  position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    z-index: 1;
+                    width: 25%;
+                  }
+
+.monty-container{
+                      position: relative;
+                      top: 40%;
+                      height:50%;
+                      width: 25%;
+                      float: left;
+                    }
+                    .monty-container:hover{
+                      filter: drop-shadow(0 0 30px #CEFA05);
+                    }
+                    .monty{
+                    position: absolute;
+                      top: 0px;
+                      left: 0px;
+                    z-index: 2;
+                    width: 25%;
+                    }
+
+                    .monty:hover{
+                      filter: opacity(0%);
+                    }
+
+                    .montymap{
+                    position: absolute;
+                      top: 0px;
+                      left: 0px;
+                      z-index: 1;
+                      width: 25%;
+                    }
+
+.delta-container{
+                          position: relative;
+                          top: 40%;
+                          height:50%;
+                          width: 25%;
+                          float: left;
+                        }
+                        .delta-container:hover{
+                          filter: drop-shadow(0 0 30px #CEFA05);
+                        }
+                        .delta{
+                        position: absolute;
+                          top: 0px;
+                          left: 0px;
+                        z-index: 2;
+                        width: 25%;
+                        }
+
+                        .delta:hover{
+                          filter: opacity(0%);
+                        }
+
+                        .deltamap{
+                        position: absolute;
+                          top: 0px;
+                          left: 0px;
+                          z-index: 1;
+                          width: 25%;
+                        }
+
+.lulu-container{
+    position: relative;
+    top: 60%;
+    left: 10px;
+    height:50%;
+    width: 25%;
+    float: left;
+    }
+    .lulu-container:hover{
+      filter: drop-shadow(0 0 30px #CEFA05);
+    }
+    .lulu{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    width: 25%;
+    }
+
+    .lulu:hover{
+    filter: opacity(0%);
+    }
+
+    .lulumap{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 25%;
+    }
+
+.nuggy-container{
+    position: relative;
+    top: 60%;;
+    height:50%;
+    width: 25%;
+    float: left;
+    }
+
+    .nuggy-container:hover{
+      filter: drop-shadow(0 0 30px #CEFA05);
+    }
+
+    .nuggy{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    width: 25%;
+    }
+
+    .nuggy:hover{
+    filter: opacity(0%);
+    }
+
+    .nuggymap{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 25%;
+    }
+
+.toby-container{
+    position: relative;
+    top: 60%;
+    height:50%;
+    width: 25%;
+    float: left;
+    }
+
+    .toby-container:hover{
+      filter: drop-shadow(0 0 30px #CEFA05);
+    }
+
+    .toby{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    width: 25%;
+    }
+
+    .toby:hover{
+    filter: opacity(0%);
+    }
+
+    .tobymap{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 25%;
+    }
+
+.frankie-container{
+  position: relative;
+  top: 60%;
+  height:50%;
+  width: 25%;
+  float: left;
+  }
+
+  .frankie-container:hover{
+    filter: drop-shadow(0 0 30px #CEFA05);
+  }
+
+  .frankie{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  width: 25%;
+  }
+
+  .frankie:hover{
+  filter: opacity(0%);
+  }
+
+  .frankiemap{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  width: 25%;
+  }
